@@ -1,0 +1,10 @@
+# Создай файл requirements.txt вручную и добавь туда:
+dash==2.14.0
+dash-bootstrap-components==1.4.1
+plotly==5.15.0
+pandas==2.0.3
+numpy==1.24.3
+python-dotenv==1.0.0
+sqlalchemy==2.0.19
+psycopg2-binary==2.9.6
+gunicorn==21.2.0
