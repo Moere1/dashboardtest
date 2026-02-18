@@ -187,6 +187,7 @@ def toggle_navbar_collapse(n, is_open):
         return not is_open
     return is_open
 
+app_for_gunicorn = app.server
 if __name__ == '__main__':
     logger.info(f"Starting dashboard for {REGION_NAME}")
     app.run(
